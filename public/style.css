@@ -78,7 +78,7 @@ body{
 
 /* showcase section */
 #showcase-section{
-    background-image: linear-gradient(to right, rgb(25, 27, 25), rgba(72, 78, 72, 0.068)), url(./img/bread-2796393_1280.jpg);
+    background-image: linear-gradient(to right, rgb(25, 27, 25), rgba(72, 78, 72, 0.068)), url(../customer/img/ev.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -199,7 +199,7 @@ body{
     margin-bottom: 1rem;
 }
 
-.item-btn{
+.item-btn,.ticket-btn{
     padding: 0.5rem 1.5rem;
     background: #FC8019;
     color: #fff;
@@ -210,6 +210,16 @@ body{
 
 .item-btn:hover{
     background-color: #e46600;
+    transition: all 0.3s;
+}
+
+.ticket-btn{
+    margin-top: 1rem;
+    background-color: rgb(46, 46, 46);
+}
+
+.ticket-btn:hover{
+    background-color: #000;
     transition: all 0.3s;
 }
 

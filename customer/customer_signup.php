@@ -18,11 +18,11 @@
     <div id="login-page">
 
         <div id="form-section">
-            <h1>Admin Login</h1>
-            <!-- <p>Log in to your account and manage your digital world</p> -->
+            <h1>Signup to BookMyEvent</h1>
 
             <!-- form -->
-            <form action="admin_login_process.php" method="POST" id="form">
+            <!-- <form action="signup_process.php" method="POST"> -->
+            <form action="#" id="form">
                 <div>
                     <label for="username">Username</label><br>
                     <input type="text" name="username" id="username" required>
@@ -30,10 +30,29 @@
                 <div>
                     <label for="password">Password</label><br>
                     <input type="password" name="password" id="password" required>
-                </div> 
-                <input type="submit" value="Log In" name="submit">   
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label><br>
+                    <input type="number" name="phone" id="number" required>
+                </div>        
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required>
+                </div>  
+                <input type="submit" id="submit" value="Sign Up" name="submit">   
                 
+                <!-- or-section -->
+                <div id="hr-rule">
+                    <hr class="one">
+                    <span class="mid-text">or</span>
+                    <hr class="two">
+                </div>
             </form>
+
+            <div id="sign-up">
+                <p>Already have an account?</p>
+                <a href="customer_login.php">Login Here</a>
+            </div>
         </div>
 
         <div id="carousel-section">
@@ -45,5 +64,7 @@
         </div>
 
     </div>
+    
+    <script src="signup.js"></script>
 </body>
 </html>
